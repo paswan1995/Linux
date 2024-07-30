@@ -221,8 +221,12 @@ echo $TOPIC
 
 * Viewing Environmental Variables
 
+* to view specific environmental variable 
+* `echo $HOME`
+* `echo $HOSTNAME` 
+
       * To view all environmental variables:
-          * `printenv`
+          * `printenv or env`
       
 ![preview](images/10.png)
 
@@ -231,6 +235,8 @@ echo $TOPIC
 
  * For example, to view the PATH variable:
       * `echo $PATH`
+
+![preview](images/12.png)
 
 # Setting Environmental Variables
 
@@ -274,6 +280,17 @@ sudo echo 'MY_VAR="Hello World"' >> /etc/environment
 `export PATH=$PATH:/new/directory/path`
 
 * To make it permanent, add the above line to your `~/.bashrc or ~/.bash_profile.`
+![preview](images/12.png)
+
+* taking backup of orignal final `cp /etc/profile /etc/profil_orignal` for saftey purpose 
+![preview](images/12.png)
+
+* now to revert the value 
+* `vi .bashrc` 
+* change the value `TESTVAR=xyz to TESTVAR`
+* `source .bashrc`
+
+![preview](images/15.png)
 
 * # Example 2: Setting JAVA_HOME
 
