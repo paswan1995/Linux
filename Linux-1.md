@@ -340,3 +340,8 @@ echo $PATH
 * # to search the package in ubuntu `sudo apt-cache search jdk-11`
 * `sudo apt-cache madison jenkins`
 
+```
+perplexity search
+
+yum is the oldest = dnf is the latest  
+```
