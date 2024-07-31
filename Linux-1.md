@@ -337,4 +337,6 @@ echo $PATH
 * To learn using vim please refer here: https://www.openvim.com/ 
 * Other editor is nano 
 
-* to search the package in ubuntu `sudo apt-cache search jdk-11`
+* # to search the package in ubuntu `sudo apt-cache search jdk-11`
+* `sudo apt-cache madison jenkins`
+
