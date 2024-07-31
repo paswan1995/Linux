@@ -336,3 +336,5 @@ echo $PATH
 * Every linux generally has a text editor which is vim.
 * To learn using vim please refer here: https://www.openvim.com/ 
 * Other editor is nano 
+
+* to search the package in ubuntu `sudo apt-cache search jdk-11`
